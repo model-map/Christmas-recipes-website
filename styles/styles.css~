@@ -1,21 +1,17 @@
-
 body{
     font-family: monospace;
     text-align: justify;
     margin: 100px;
-    background-color: hsl(0,50%,85%);
-    font-size:16px;
+    background-color: hsl(0,50%,90%);
 }
 
 h1.site-title{
-    font-family:'Dancing Script',monospace;
-    font-size: 64px;
-    color:hsl(0, 69%, 40%);
-    font-weight:bolder;
+	font-family:'Martian Mono', monospace;
+    font-size: 58px;
+    color:hsl(240, 69%, 40%)
 }
 
 h1,h2,h3{
-    font-family: 'Dancing Script',monospace;
     text-decoration: underline;
     text-align: center;
 }

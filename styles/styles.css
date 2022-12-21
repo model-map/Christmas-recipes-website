@@ -1,0 +1,56 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    margin: 100px;
+    background-color: hsl(0,50%,90%);
+}
+
+h1.site-title{
+    font-size: 58px;
+    color:hsl(240, 69%, 40%)
+}
+
+h1,h2,h3{
+    text-decoration: underline;
+    text-align: center;
+}
+
+p,ul,ol{
+    margin:0px 100px 0px 100px;
+}
+
+.wrap-block{
+    display: table;
+    /* border:2px solid red; */ /* uncomment to see the damn block! */
+    margin:auto;
+}
+
+.main-content li{
+    display: inline;
+    padding:0px 20px 0px 20px;
+
+}
+
+/* font-size and image adjustments */
+
+h1{font-size: 32px;
+}
+
+h2{
+    font-size: 24px;
+}
+
+img{
+    height:300px;
+    width:auto;
+    text-align: center;
+}
+
+.rotate-r90{
+    transform: rotate(270deg);
+}
+
+.center-image{
+    display: flex;
+    justify-content: center;
+}
